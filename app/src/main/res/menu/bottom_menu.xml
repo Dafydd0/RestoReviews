@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_restaurant"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_restaurant_24"
+        android:title="Restaurant"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_reviews"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_rate_review_24"
+        android:title="My Reviews"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_bookmarks"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_bookmarks_24"
+        android:title="My Bookmarks"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:title="Profile"
+        app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.reviewappfinalisimo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ReviewAppFinalisimo">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.example.reviewappfinalisimo.ViewPlaceActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ReviewAppFinalisimo.NoActionBar" />
+        <activity
+            android:name="com.example.reviewappfinalisimo.GoogleMapsActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ReviewAppFinalisimo.NoActionBar" />
+
+        <activity
+            android:name="com.example.reviewappfinalisimo.ProfileActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ReviewAppFinalisimo.NoActionBar" />
+        <activity
+            android:name="com.example.reviewappfinalisimo.UserReviewsRecyclerViewActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ReviewAppFinalisimo.NoActionBar" />
+        <activity
+            android:name="com.example.reviewappfinalisimo.UserBookmarksRecyclerViewActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ReviewAppFinalisimo.NoActionBar" />
+        <activity
+            android:name="com.example.reviewappfinalisimo.RestaurantReviewsRecyclerViewActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ReviewAppFinalisimo.NoActionBar" />
+        <activity
+            android:name="com.example.reviewappfinalisimo.ReviewActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ReviewAppFinalisimo.NoActionBar" />
+        <activity
+            android:name="com.example.reviewappfinalisimo.RegisterActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ReviewAppFinalisimo.NoActionBar" />
+        <activity
+            android:name="com.example.reviewappfinalisimo.AuthActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

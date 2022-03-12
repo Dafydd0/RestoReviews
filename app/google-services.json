@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "119177425924",
+    "project_id": "resto-reviews-final",
+    "storage_bucket": "resto-reviews-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119177425924:android:af3f5b8e604d4dd8c47151",
+        "android_client_info": {
+          "package_name": "com.example.reviewappfinalisimo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119177425924-8m7dq9tm7jdcjq0eqiur61ldo0msqdnl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "YOUR_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119177425924-8m7dq9tm7jdcjq0eqiur61ldo0msqdnl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
